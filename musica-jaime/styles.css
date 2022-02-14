@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+
+.contenedorImagenes{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(33, 194, 154), rgb(0, 102, 255));
+}
+.contenedor{
+    justify-content: center;
+    text-align: center;
+}
+
+.Img{
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+}
+
+.titulo{
+    padding-bottom: 20px;
+    padding-top: 15px;
+
+}
+
