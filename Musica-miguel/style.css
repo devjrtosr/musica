@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(241, 243, 243);
+  background: linear-gradient(to bottom, rgb(33, 194, 81), rgb(0, 247, 255));
+  background-repeat: no-repeat;
+}
+.Titulo {
+  text-align: center;
+  color: blueviolet;
+}
+.Cotenedor-bateria {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.img {
+  width: 150px;
+  height: 150px;
+}
