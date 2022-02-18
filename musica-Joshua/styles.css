@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #e5989b, #6d6875);
+}
+
+.titulo {
+  padding: 3rem;
+  text-align: center;
+  color: #4b4750;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.imagen {
+  width: 10rem;
+  height: 10rem;
+}
+
+.contenedor-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 8rem;
+}
+
+/*
+  titulo
+  color de fondo
+  instrumentos centrados
+  */
