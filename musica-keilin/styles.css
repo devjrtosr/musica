@@ -1,0 +1,38 @@
+* {
+  font-family: "Kadwa", serif;
+}
+
+.cuerpo-pagina {
+  background: linear-gradient(#00dbc6, #4b0e84);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.titulo-pagina {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contenedor-bateria {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contenedor-imagen {
+  background-color: #fff;
+  border: 3px solid #fed4e7;
+  height: 200px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.contenedor-imagen .imagen {
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+}
