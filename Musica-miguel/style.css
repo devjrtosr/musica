@@ -12,7 +12,32 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
-.img {
-  width: 150px;
-  height: 150px;
+
+.boton {
+  width: 100px;
+  height: 100px;
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.boton:nth-of-type(1) {
+  background-image: url(../assets/imagenes/crash.png);
+}
+.boton:nth-of-type(2) {
+  background-image: url(../assets/imagenes/kick.png);
+}
+.boton:nth-of-type(3) {
+  background-image: url(../assets/imagenes/snare.png);
+}
+.boton:nth-of-type(4) {
+  background-image: url(../assets/imagenes/tom1.png);
+}
+.boton:nth-of-type(5) {
+  background-image: url(../assets/imagenes/tom2.png);
+}
+.boton:nth-of-type(6) {
+  background-image: url(../assets/imagenes/tom3.png);
+}
+.boton:nth-of-type(7) {
+  background-image: url(../assets/imagenes/tom4.png);
 }
