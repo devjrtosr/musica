@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Lobster+Two&family=Luxurious+Roman&display=swap");
+
+body {
+  background: linear-gradient(to right, #f891b5, #f8b391);
+}
+
+.titulo {
+  text-align: center;
+  color: black;
+  font-family: "Lobster Two", cursive;
+  color: white;
+  font-size: 3rem;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+  border-radius: 15px;
+}
+
+.contenedor-imagenes {
+  margin-top: 40px;
+}
