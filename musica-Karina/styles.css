@@ -12,13 +12,14 @@ body {
   font-size: 3rem;
 }
 
+.contenedor-imagenes {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .item {
   width: 100px;
   height: 100px;
-  margin-right: 40px;
-  border-radius: 15px;
-}
-
-.contenedor-imagenes {
-  margin-top: 40px;
 }
