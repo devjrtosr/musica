@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(241, 243, 243);
+  background: linear-gradient(to bottom, rgb(33, 194, 81), rgb(0, 247, 255));
+  background-repeat: no-repeat;
+}
+.Titulo {
+  text-align: center;
+  color: blueviolet;
+}
+.Cotenedor-bateria {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.boton {
+  width: 100px;
+  height: 100px;
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.boton:nth-of-type(1) {
+  background-image: url(../assets/imagenes/crash.png);
+}
+.boton:nth-of-type(2) {
+  background-image: url(../assets/imagenes/kick.png);
+}
+.boton:nth-of-type(3) {
+  background-image: url(../assets/imagenes/snare.png);
+}
+.boton:nth-of-type(4) {
+  background-image: url(../assets/imagenes/tom1.png);
+}
+.boton:nth-of-type(5) {
+  background-image: url(../assets/imagenes/tom2.png);
+}
+.boton:nth-of-type(6) {
+  background-image: url(../assets/imagenes/tom3.png);
+}
+.boton:nth-of-type(7) {
+  background-image: url(../assets/imagenes/tom4.png);
+}
