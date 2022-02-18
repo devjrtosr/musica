@@ -1,0 +1,24 @@
+body {
+  background-image: linear-gradient(to right, green, blue);
+}
+
+.main-text {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  color: white;
+}
+
+.imagen {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-around;
+}
+
+.picture {
+  width: 150px;
+}
