@@ -1,0 +1,30 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(201, 45, 167) 27%,
+    rgb(0, 255, 234) 100%
+  );
+}
+.contenedor {
+  display: flex;
+  align-items: center;
+}
+.contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titulo {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  color: aliceblue;
+}
+.imagenes {
+  display: flex;
+  justify-content: space-around;
+}
+.imagen {
+  height: 320px;
+}
